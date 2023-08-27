@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripton" content="this is an ecommerc project for making rafikul express"/>
+    <title>E-Commerce</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tillana:wght@700&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   <!-- navbar srarts here -->
+   <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+   <nav id="menu" class="hidden">
+        <ul class="nav_upper flex-space-around">
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Home</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Register</a>
+            </li>
+
+
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link"><img src="./images/ra3.jpg" alt="profile" class="profile_icon"></a>
+            </li>
+        </ul>
+        <ul class="nav_lower flex-space-around">
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link nav_brand" >Rafik Express</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="cart.html" class="nav_link" >
+                    <span><i class="fa-solid fa-cart-shopping"></i></span> Cort 2 products-$142.52
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- navbar end here-->
+
+    <!-- start main section -->
+
+   <main>
+    <section class="ragister">
+        <h2 class="section_title text-center"><marquee behavior="anonymous" direction="left">User Registration</marquee></h2>
+        <div class="card">
+            <form action="#" method="post" class="form">
+                <div class="form_contol flex_center">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="nane" required autocomplete="name">
+                </div>
+                <div class="form_contol flex_center">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                </div>
+                <div class="form_contol flex_center">
+                    <label for="about">About me</label>
+                    <textarea  name="about" id="about" ></textarea>
+                </div>
+
+                <div  class="form_contol flex_center">
+                    <button type="submit" class="btn contol-btn">Submit</button>
+                </div>
+
+            </form>
+
+        </div>
+
+   </section>
+</main> 
+     <!-- start main section -->
+    
+    <!-- foooter starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subcribe:</label>
+            <input type="email" id="subscribe" placeholder="Your Email address" class="footer_input">
+            <button class="btn btn_subcribe">Subcribe</button>
+
+        </div>
+
+        <div>
+            <p>&copy; Copyright 2023 Rafik Express . All Right</p>
+        </div>
+    </footer>
+    <!-- foooter starts here -->
+
+    <script src="scricpt/index.js">
+   
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripton" content="this is an ecommerc project for making rafikul express"/>
+    <title>E-Commerce</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tillana:wght@700&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   <!-- navbar srarts here -->
+   <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+   <nav id="menu" class="hidden">
+        <ul class="nav_upper flex-space-around">
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Home</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Register</a>
+            </li>
+
+
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link"><img src="./images/ra3.jpg" alt="profile" class="profile_icon"></a>
+            </li>
+        </ul>
+        <ul class="nav_lower flex-space-around">
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link nav_brand" >Rafik Express</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="cart.html" class="nav_link" >
+                    <span><i class="fa-solid fa-cart-shopping"></i></span> Cort 2 products-$142.52
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar end here-->
+
+    <!-- ----start main section -->
+    <main>
+        <section class="contact-section">
+            <h2 class="section-title co_h2 text-center">Contact Us</h2>
+            <div class="contact-content flex_center">
+                
+                <form action="#" class=" form card login-form fa-di">
+                    <div class="form_contol flex_center">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="nane" required autocomplete="name" class="login-input">
+                    </div>
+                    <div class="form_contol flex_center">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required autocomplete="email" class="login-input">
+                    </div>
+
+                    <div class="form_contol flex_center">
+                        <label for="about">About me</label>
+                        <textarea  name="about" id="about" ></textarea>
+                    </div>
+                  
+    
+                    <div  class="form_contol flex_center">
+                        <button type="submit" class="btn contol-btn login_btn">Submit</button>
+                    </div>
+                </form>
+                <div class="contact_address flex-space-around">
+                    <address class="address">
+                        <h4>Address</h4>
+                        <p>Biddabagish, Fulbari</p>
+                        <p>Kurigram, Rangpur</p>
+                        <p>Bangladesh</p>
+                        <br>
+                        <span>Coll:</span>
+                        <a href="tel:+01746892767">+01746892767</a>
+                       
+                    </address>
+                    <iframe class="conta-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14348.31997380742!2d89.55848761024124!3d25.96541674590598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2c3f4766bf653%3A0xbad8d21a53ab6116!2z4Kaa4Ka-4KaB4Kam4KeH4KawIOCmueCmvuCmnyDgpqzgpr7gppzgpr7gprAg4Kac4Ka-4Kau4KeHIOCmruCmuOCmnOCmv-Cmpg!5e0!3m2!1sbn!2sbd!4v1693074875782!5m2!1sbn!2sbd" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ----start main  end-->
+
+    <!-- foooter starts here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subcribe:</label>
+            <input type="email" id="subscribe" placeholder="Your Email address" class="footer_input">
+            <button class="btn btn_subcribe">Subcribe</button>
+
+        </div>
+
+        <div>
+            <p>&copy; Copyright 2023 Rafik Express . All Right</p>
+        </div>
+    </footer>
+    <!-- foooter starts here -->
+
+    <script src="scricpt/index.js">
+   
+    </script>
+    
+
+</body>
+</html>
